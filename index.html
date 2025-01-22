@@ -23,7 +23,7 @@ p {line-height: 2}
 
 <!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-  <div class="w3-display-middle w3-text-white w3-center">
+  <div class="w3-display-middle w3-text-black w3-center">
     <h1 class="w3-jumbo">Hello Quinn!</h1>
     <h2>.</h2>
     <h2><b>scroll down</b></h2>
@@ -43,13 +43,12 @@ p {line-height: 2}
 <!-- About  -->
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
   <div class="w3-content">
-    <h1 class="w3-center w3-text-grey"><b>u n me</b></h1>
+    <h1 class="w3-center w3-text-grey"><b>You and Me</b></h1>
     <img class="w3-round w3-grayscale-min" src="cringe3.webp" style="width:100%;margin:32px 0">
     <p id="timePassed"></p>
     <script>
     // The date you want to compare with (Example: January 1, 2020)
     const targetDate = new Date('2024-12-23T01:52:00');
-    document.getElementById('timePassed').textContent = `It is currently: ${targetDate}`;
     // Function to calculate the time difference
     function calculateTimePassed() {
       const now = new Date();
@@ -70,6 +69,7 @@ p {line-height: 2}
       const result = `${days} days, ${remainingHours} hours, ${remainingMinutes} minutes, ${remainingSeconds} seconds`;
 
       // Display the result
+      document.getElementById('timePassed').textContent = `It is currently: ${targetDate}`;
       document.getElementById('timePassed').textContent = `meaning it's officialy been: ${result}`;
     }
 
@@ -80,17 +80,17 @@ p {line-height: 2}
     calculateTimePassed();
     </script>
     <div class="pagebreak"> </div>
-    <p><i>since we have interacted in discord dms </i>
+    <p><i>since we have interacted in discord dms. Although this time is brief, it has been the highlight of my year (get it, bc the year is just started). Anywho, I would indeed like it if you were to accept the honour of being my valentine on this fine day of Friday February 14. Having made this official invitation, click the button under this.</i>
     </p><br>
-    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Details</a></p>
   </div>
 </div>
 
 <!-- Background photo -->
 <div class="w3-display-container bgimg2">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">You Are Invited</h1><br>
-    <h2>Of course..</h2>
+  <div class="w3-display-middle w3-text-black w3-center">
+    <h1 class="w3-jumbo">Will You Be My Valentine</h1><br>
+    <h2>Of course I'm asking you...</h2>
   </div>
 </div>
 
@@ -98,17 +98,17 @@ p {line-height: 2}
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
   <div class="w3-content">
     <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
-    <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0">
+    <img class="w3-round-large w3-grayscale-min" src="cringe4.jpg" style="width:100%;margin:64px 0">
     <div class="w3-row">
       <div class="w3-half">
         <h2>When</h2>
-        <p>Wedding Ceremony - 2:00pm</p>
-        <p>Reception & Dinner - 5:00pm</p>
+        <p>Whenever you receive this</p>
+        <p>Until the end of time (or heat death of the universe)</p>
       </div>
       <div class="w3-half">
         <h2>Where</h2>
         <p>Some place, an address</p>
-        <p>Some where, some address</p>
+        <p>Or just online</p>
       </div>
     </div>
   </div>
@@ -116,8 +116,8 @@ p {line-height: 2}
 
 <!-- RSVP section -->
 <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
-  <h1>HOPE YOU CAN MAKE IT!</h1>
-  <p class="w3-large">Kindly Respond By January, 2017</p>
+  <h1>HOPE YOU ACCEPT!</h1>
+  <p class="w3-large">Kindly Respond ASAP</p>
   <p class="w3-xlarge">
     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
   </p>
@@ -127,12 +127,13 @@ p {line-height: 2}
 <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
     <div class="w3-container w3-white w3-center">
-      <h1 class="w3-wide">CAN YOU COME?</h1>
-      <p>We really hope you can make it.</p>
+      <h1 class="w3-wide">surely you accept?</h1>
+      <p>On my hands and knees begging</p>
       <form>
         <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
       </form>
-      <p><i>Sincerely, John & Jane</i></p>
+      <p><i>Sincerely, Miles</i></p>
+      <p><strong>(I cant see what you write here so I assume its a yes)</strong>
       <div class="w3-row">
         <div class="w3-half">
           <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
